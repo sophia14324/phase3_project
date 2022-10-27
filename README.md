@@ -5,7 +5,11 @@ Telecom, a telecommunications company, has compiled data on their customers and 
 
 ## Data Understanding
 
-The dataset provided information on the following features for each customer: Exploring Data This dataset contains 2 tables, in CSV format: The Customer Churn table contains information on all 7,043 customers from a Telecommunications company in California in Q2 2022 Each record has 38 columns and represents one customer and contains details about their demographics, location, tenure, subscription services, status for the quarter (joined, stayed, or churned), and more! The Zip Code Population table contains complementary information on the estimated populations for the California zip codes in the Customer Churn table.
+The dataset provided information on the following features for each customer: 
+
+This dataset contains 2 tables, in CSV format: The Customer Churn table contains information on all 7,043 customers from a Telecommunications company in California in Q2 2022 
+
+Each record has 38 columns and represents one customer and contains details about their demographics, location, tenure, subscription services, status for the quarter (joined, stayed, or churned), and more! The Zip Code Population table contains complementary information on the estimated populations for the California zip codes in the Customer Churn table.
 
 ## DATA PREPARATION
 This was done to ensure the Validity, Accuracy, Completeness, Consistency and Uniformity of the Data. These are the steps followed in preparing the data: TASK1 :The first task was to check if the column names were uniform and readable.
