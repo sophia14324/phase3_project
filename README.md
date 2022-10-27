@@ -49,9 +49,6 @@ The figure above shows the relationship between Age and customer behavior.
 6. Customers on Premium tech support are less likely to churn as compared to those with no tech support. Customers in Premiumtech support account for about 40%. 
 7. Fibre optic internet type is the most popular but it's affected by a high churn rate which is an indication of customer dissatisfaction. Dsl and cable have the same observation respectively.
 
-### Visualizations
-The visualizations for our univariate and bivariate data analysis are HERE:
-
 ### Modeling
 Data-preprocessing : We drop the churn reason and churn category columns because they had a large amount of missing data.
 
