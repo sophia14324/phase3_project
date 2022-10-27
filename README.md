@@ -7,7 +7,7 @@ Telecom, a telecommunications company, has compiled data on their customers and 
 
 The dataset provided information on the following features for each customer: Exploring Data This dataset contains 2 tables, in CSV format: The Customer Churn table contains information on all 7,043 customers from a Telecommunications company in California in Q2 2022 Each record has 38 columns and represents one customer and contains details about their demographics, location, tenure, subscription services, status for the quarter (joined, stayed, or churned), and more! The Zip Code Population table contains complementary information on the estimated populations for the California zip codes in the Customer Churn table.
 
-DATA PREPARATION
+## DATA PREPARATION
 This was done to ensure the Validity, Accuracy, Completeness, Consistency and Uniformity of the Data. These are the steps followed in preparing the data: TASK1 :The first task was to check if the column names were uniform and readable.
 
 TASK2 :The second task was to check for duplcated rows.
@@ -35,7 +35,15 @@ We plotted histograms showing the relationship between various features in our d
 
 From the observations made from our charts, we came up with the following inferences:
 
-The figure above shows the relationship between Age and customer behavior. The customer behavior clearly shows that Age has little to no effect on customer behavior but on further analysis, if a customer is considered a senior citizen they are less likely to churn. The gender of a customer has no observed effect on the choice of churning where both genders are equally likely to churn. The marital status of a customer has little to no effect on customer behavior. Customers enrolled in an offer plan are less likely to churn as compared to those out of an offer. However, there is no clear observation that the offer type affects customer behavior. The longer a customer relation period the less likely they are to churn. Also, the customer churn rate is highest in the first 10 months of customer interaction. Customers who pay via bank are more likely to churn showing this method can be faulty. However, this observation can be a result of the difference in the number of customers using various payment methods. Customers on Premium tech support are less likely to churn as compared to those with no tech support. Customers in Premiumtech support account for about 40%. Fibre optic internet type is the most popular but it's affected by a high churn rate which is an indication of customer dissatisfaction. Dsl and cable have the same observation respectively.
+The figure above shows the relationship between Age and customer behavior. 
+
+1. The customer behavior clearly shows that Age has little to no effect on customer behavior but on further analysis, if a customer is considered a senior citizen they are less likely to churn. 
+2. The gender of a customer has no observed effect on the choice of churning where both genders are equally likely to churn. 
+3. The marital status of a customer has little to no effect on customer behavior. Customers enrolled in an offer plan are less likely to churn as compared to those out of an offer. 
+4. However, there is no clear observation that the offer type affects customer behavior. The longer a customer relation period the less likely they are to churn. Also, the customer churn rate is highest in the first 10 months of customer interaction. 
+5. Customers who pay via bank are more likely to churn showing this method can be faulty. However, this observation can be a result of the difference in the number of customers using various payment methods. 
+6. Customers on Premium tech support are less likely to churn as compared to those with no tech support. Customers in Premiumtech support account for about 40%. 
+7. Fibre optic internet type is the most popular but it's affected by a high churn rate which is an indication of customer dissatisfaction. Dsl and cable have the same observation respectively.
 
 ### Visualizations
 The visualizations for our univariate and bivariate data analysis are HERE:
@@ -49,7 +57,7 @@ The first step in building the model is to split the data into training and test
 ## Feature Engineering.
 It is the process of extracting features from the data and transforming them into a format that is suitable for the machine learning model. Most machine learning algorithms require numeric values, therefore, all the categorical features should be encoded into numeric labels before training the model. In addition, we need to transform numeric values in the dataset into a common scale which will prevent the big values in the dataset from dominating the learning process.
 
-Training data and Test data pre-processing.
+### Training data and Test data pre-processing.
 One hot encoding - This creates a new binary column for each level of the categorical variable. The new column contains 0s and 1s indicating the presence or absence of the category in the data.
 
 Normalization - It is a common practice in machine learning which consists of translating data into a range of (0,1). If the features are scaled differently some may take up more weight than others. Hence, the scale levels the playing field.
